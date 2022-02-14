@@ -1,0 +1,149 @@
+html
+{
+    scroll-behavior: smooth; 
+    /* pour faire glisser le page vers les liens selectioner */
+}
+body
+{
+    background-image: url(img/background.png);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+nav
+{
+    background-color: #C55394;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+nav a
+{
+    text-decoration: none;
+    color: #fff;
+    /* none pour enlever toute decoration sur le texte, ici on enlève le soulignement */
+}
+nav .onglets a
+{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+div a:hover{
+    background-color: #eb43a3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: cover;
+}
+header
+{
+    background: url(img/rainbow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c55394;
+    padding: 40px;
+    background-position-y: 5%;
+}
+h1
+{
+    font-family: 'Courgette', cursive;
+}
+h2
+{
+    color: #c55394;
+}
+h3
+{
+    color: #c55394;
+}
+section
+{
+    
+    line-height: 20px;
+    text-align: justify;
+    
+    
+}
+/* toute les class .photo si apres represente les mises en place des figures inserer */
+.photo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo figure figcaption
+{
+    display: flex;
+    align-items: center;
+    background: #333;
+    position: relative;
+    top: -28px;
+    opacity: 90%;
+    text-align: center;
+}
+.photo figure figcaption p
+{
+    color: #fff;
+    margin: 6%;
+    
+}
+.photo figure img
+{
+    height: 200px;
+    
+}
+figure
+{
+    margin: -16px;
+}
+
+figure:hover
+{
+    transform: scale(1.1);
+}
+
+
+.texte
+{
+    display: flex;
+    
+}
+button
+{
+    background-color: #C55394;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.box
+ {
+     background-color: #fff;
+     justify-content: center;
+     margin-left: 15%;
+     margin-right: 15%;
+     margin-bottom: 5%;
+     margin-top: -2%;
+     padding: 15px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+     -2px -2px 4px rgba(128, 120, 64, 0.5)
+     
+
+ }
+ footer
+ {
+    text-align: right;
+    background-color: #EB43A3;
+    padding: 10px 10px;
+     color: #fff;
+     
+    
+ }
